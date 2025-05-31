@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Meet Auto-Opener Options</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 400px; margin: auto; }
+    label { display: block; margin-bottom: 5px; }
+    input[type="number"] { width: 60px; padding: 5px; margin-bottom: 15px; }
+    button { padding: 8px 15px; cursor: pointer; }
+    #status { margin-top: 15px; font-style: italic; }
+  </style>
+</head>
+<body>
+  <h1>Google Meet Auto-Opener Options</h1>
+  
+  <div>
+    <label for="reminderTime">Open meeting tab (minutes before start):</label>
+    <input type="number" id="reminderTime" name="reminderTime" min="0" max="60" value="5">
+  </div>
+  
+  <button id="save">Save Settings</button>
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>

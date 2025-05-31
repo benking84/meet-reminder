@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Google Meet Auto-Opener",
+  "version": "1.0",
+  "description": "Automatically opens Google Meet links from your Google Calendar events.",
+  "permissions": [
+    "identity",
+    "storage",
+    "alarms",
+    "https://www.googleapis.com/calendar/v3/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
