@@ -6,8 +6,7 @@
   "permissions": [
     "identity",
     "storage",
-    "alarms",
-    "https://www.googleapis.com/calendar/v3/"
+    "alarms"
   ],
   "background": {
     "service_worker": "background.js"
@@ -15,5 +14,11 @@
   "options_page": "options.html",
   "icons": {
     "128": "128.png"
+  },
+  "oauth2": {
+    "client_id": "YOUR_CLIENT_ID_HERE",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar.events.readonly"
+    ]
   }
 }
