@@ -1,9 +1,0 @@
-{
-  "name": "google-meet-auto-opener-extension",
-  "version": "0.1.0",
-  "private": true,
-  "description": "A Chrome extension to automatically open Google Meet links from Google Calendar in a new tab and join the meeting.",
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {}
-}
